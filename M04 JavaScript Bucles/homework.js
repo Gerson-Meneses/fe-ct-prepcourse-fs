@@ -199,12 +199,14 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-   var repeticiones = 0;
-   do {
-      num = num+5;
-      repeticiones++
-   }while (repeticiones < 8)
-   return num
+   var tabla6 = []
+   var multiplicador = 1
+   var resultado
+   do { resultado = 6* multiplicador;
+      multiplicador++;
+      tabla6.push(resultado)
+   } while (resultado<=60) 
+  return tabla6
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
