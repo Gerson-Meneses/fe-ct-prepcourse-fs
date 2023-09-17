@@ -260,7 +260,7 @@ function continueStatement(num) {
          continue }
       num +=2;
       array.push(num);
-   } return(array);
+   } return(array)
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
