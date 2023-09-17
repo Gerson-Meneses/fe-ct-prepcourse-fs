@@ -96,7 +96,7 @@ function actualizarPassword(objetoUsuario, nuevaPassword) {
    // Retornar el objeto.
    // Tu código:
     objetoUsuario['password']=nuevaPassword
-    return objetoUsuario
+   return objetoUsuario
 }
 
 function agregarAmigo(objetoUsuario, nuevoAmigo) {
